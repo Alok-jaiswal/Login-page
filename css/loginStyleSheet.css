@@ -1,0 +1,191 @@
+body{
+    margin:0;
+    padding:0;
+}
+.maindiv{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+ 
+.div1{
+    display: flex;
+    justify-content:center;
+    background  :rgba(18, 18, 18, 1);
+    width: 50vw;
+    
+}
+.imgbg{
+    height: 100vh;
+    width: 50vw;
+}
+
+.img1{
+    height: 100vh;
+    width: 50vw;
+
+}
+.logoimg{
+    position: absolute;
+    width: 32px;
+    height: 53px;
+    left: 10px;
+    top: 10px;
+    padding: 15px;
+}
+h1{
+    position: absolute;
+    width: 50vw;
+    height: 6vh;
+    left: 3vw;
+    top: 7vh;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 7vh;
+    line-height: 9vh;
+    color: #FFFFFF;
+
+}
+.nameInput{
+    position: absolute;
+    width: 40%;
+    height: 9%;
+    left: 2vw;
+    top: 23vh;
+    font-size: large;
+    padding-left:30px;
+    background: #2F2F2F;
+    border-radius: 5px;
+}
+.passInput{
+    position: absolute;
+    width: 40%;
+    height: 9%;
+    left: 2vw;
+    top: 36vh;
+    font-size: large;
+    padding-left:30px;
+    background: #2F2F2F;
+    border-radius: 5px;
+}
+.imghidden{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 41vw;
+    top: 39vh;
+}
+.checkboxInput{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 2vw;
+    top: 48vh;
+    background: #464646;
+}
+.lable1{
+    position: absolute;
+    width: 130px;
+    height: 19px;
+    left: 3.5vw;
+    top: 48vh;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9E9E9E;
+}
+.lable2{
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    left: 34vw;
+    top: 48vh;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9E9E9E;
+}
+.lable3{
+    position: absolute;
+    width: 150px;
+    height: 42px;
+    left: 20vw;
+    top: 54vh;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 42px;
+    color: #E5E5E5;
+}
+.span1{
+    position: absolute;
+    border: 0.3px solid #E5E5E5;
+    width: 17vw;
+    height: 5vh;
+    left:2vw;
+    top:63vh;
+    padding:10px 25px;
+    border-radius: 5px;
+}
+.googlelink{
+    padding-left: 1vw;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vh;
+    color: #C5C5C5;
+}
+.span2{
+    position: absolute;
+    justify-content: space-between;
+    border:0.3px solid #E5E5E5;
+    width:16.5vw;
+    height:5vh;
+    left:23vw;
+    top:63vh;
+    padding:10px 35px;
+    border-radius: 5px;
+}
+.facebooklink{
+    padding-left: 1vw;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5vh;
+    line-height:1.5vh;
+    color: #C5C5C5;
+}
+.div3{
+    position: absolute;
+    width: 42vw;
+    height: 7vh;
+    left: 2vw;
+    top: 76vh;
+    background: linear-gradient(270deg, #A684FF 24.87%, rgba(208, 63, 255, 0.861458) 80.91%);
+    border-radius: 5px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #E5E5E5;
+}
